@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Adoption Form</title>
+    <meta charset='utf-8'>
+    
+    <link rel="stylesheet" href="Css/Indexcss.css" type="text/css">
+  
+  <style>
+  body{
+background-image: url(Images/water-min.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+text-align:left;
+}
+
+fieldset{
+box-shadow: 20px 20px;
+margin-left:400px;
+margin-right:400px;
+background-color:white;
+border: 5px outset grey;
+}
+legend{
+background-color:white;
+border-color:black;
+border-width:2px;
+border-style:solid;
+}
+
+#warn{
+color:red;
+font-style:italic;
+}
+
+#Floatimage_right {
+float:right;
+}
+
+#center{
+text-align:center;
+}
+header{
+color:white;
+} 
+
+#titleBlack{
+color:white;
+background-color:black;
+text-align:center;
+}
+footer{
+color:black;
+background-color:grey;
+}
+  </style>
+
+  </head>
+  
+  <body>
+  <header>
+  <h1 id ="titleBlack">Adoption Form</h1>
+  </header>
+  <nav>
+
+<p><a href="Index.html">Home</a> | <a href="adoptForm.html">Adoptions</a> | <a href="FAQ.html">FAQ</a> | <a href="GiftShop.html">Store</a></p>
+
+</nav>
+<hr>
+
+  
+<form method = "post" action = "mailto:Harvey.D.Smith@students.ittralee.ie" enctype="text/plain">
+<fieldset>
+    <legend>Adopt A Platypus!</legend>
+    <figure id = "Floatimage_right">
+    <picture>
+    <source srcset="Images/woman-min.jpg" type="image/jpg">
+    <img src="Images/alt/woman-min.png" alt="Lady holding a Platypus" width="250" height= "200">
+</picture>
+<figcaption>A Platypus being <br>
+            held by <a href = "https://www.aap.com.au/factcheck/no-the-strange-figurine-in-those-viral-posts-isnt-a-baby-platypus/"> Jacqui Seal </a></figcaption>
+            </figure>
+    <label for="fname">Name:</label> 
+    <input type="text" id ="fname" name = "fname" size ="20" maxlength = "20"> <br> <br> <br>
+    <label for="add1">Address 1:</label> 
+    <input type="text" id ="add1" name = "add1" size ="20" maxlength = "20"> <br> <br> <br>
+    <label for="add2">Address 2:</label> 
+    <input type="text" id ="add2" name = "add2" size ="20" maxlength = "20"> <br> <br> <br>
+    <label for="add3">Address 3:</label> 
+    <input type="text" id ="add3" name = "add3" value = "Melbourne" size ="20" maxlength = "20"> <br> <br> <br>
+    <label for="Age">Age:</label> 
+    <input type="text" id ="Age" name = "age" value = "18" size ="20" maxlength = "3"> 
+    <br>
+    <br>
+    <br>
+    
+    <label for="coms">What interests you in sponsoring/adopting a Platypus?</label> <br> 
+    <textarea name ="comments" id= "coms" rows="7" cols="50">Write your response</textarea>
+    <br><br>
+    
+    <p>Sex</p> 
+    <input type="radio" name ="sex" id= "male" value="male">
+    <label for="male">Male</label> <br>
+    <input type="radio" name ="sex" id= "female" value="female" checked="checked">
+    <label for="female">Female</label> <br> <br>
+    
+
+ 
+    <p>Have you ever sponsored an animal before?</p> <br>
+    <input type="radio" name ="spons" id= "Affirm" value="Affirm">
+    <label for="Affirm">Yes</label> <br>
+    <input type="radio" name ="spons" id= "Deny" value="Deny" checked="checked">
+    <label for="Deny">No</label> <br> <br>
+    
+  
+    <p>If you have sponsored any of the following animals before, please indicate this in the box</p> <br>
+    <input type="checkbox" name ="Panda" id= "Panda" value="Panda">
+    <label for="Panda">Panda</label> <br>
+     <input type="checkbox" name ="Turtle" id= "Turtle" value="Turtle">
+    <label for="Turtle">Turtle</label> <br>
+     <input type="checkbox" name ="Elephant" id= "Elephant" value="Elephant">
+    <label for="Elephant">Elephant</label> <br>
+     <input type="checkbox" name ="Tiger" id= "Tiger" value="Tiger">
+    <label for="Tiger">Tiger</label> <br>
+    <input type="checkbox" name ="Penguin" id= "Penguin" value="Penguin">
+    <label for="Penguin">Penguin</label> <br>
+    <input type="checkbox" name ="Cheetah" id= "Cheetah" value="Cheetah">
+    <label for="Cheetah">Cheetah</label> <br> <br>
+   
+
+    <p>Please choose your the platypus you would like to sponsor. <br>
+    <span id ="warn">(We can not confirm this will be the one you will get)</span></p>
+    <label for= "courses"> Platypuses available </label>
+    
+    <select name="courses" id="courses">
+    <option value="Flipper" selected = "selected"> Flipper</option>
+    <option value="Swim Shady"> Swim Shady</option>
+    <option value="Sushi"> Sushi </option>
+    <option value="Platy"> Platy </option>
+    <option value="Quakers"> Quakers </option>
+    <option value="Perry"> Perry </option></select>
+ 
+    
+    
+    
+
+</fieldset>
+<br><br>
+<div id ="center"><input type="submit">
+<input type="reset"></div>
+</form>
+
+
+
+<footer>
+<p><a href="mailto:Harvey.D.Smith@students.ittralee.ie">SavethePlatypuses</a><br>
+Customer Service<br>
+88 Passage Avenue<br>
+Queensland, East Barron<br>
+(07) 4024 2889<br>
+<a href="https://github.com/Hoover328/Platypus-Conservation.git">HOSTED HERE.</a></p>
+
+<a href="#top">Back to top</a>
+</footer>
+
+
+
+  </body>
+  
+</html>

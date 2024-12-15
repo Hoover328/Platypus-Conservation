@@ -1,0 +1,49 @@
+
+
+
+#title{
+text-align: center;
+
+}
+#Floatimage_right {
+float:right;
+}
+#Floatimage_left {
+float:left;
+}
+img {
+border: solid white 5px;
+}
+
+
+header{
+text-align:center;
+margin-left:30%;
+margin-right:30%;
+}
+
+article{
+
+margin-right:30%;
+}
+
+footer{
+margin-right:90%;
+
+}
+
+
+section{
+margin-right:50%;
+margin-left:17%;
+}
+
+nav{
+font-size:30px;
+color:black;
+background-color:white;
+word-spacing:150px;
+text-align:center;
+}
+
+
